@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: rgb(77, 76, 76);
+}
+.images {
+    border-style: double;
+    border-radius: 5%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+a:link, a:visited {
+color: green;
+text-decoration: none;
+}
+
+a:hover{
+    color:#333333;
+}
+.top {
+    background-color: #4aafd5;
+    padding: 20px;
+    font-family: 'Unbounded', cursive;
+    color: rgb(15, 36, 65);
+    font-size: 23px;
+}
+
+.middle {
+background-color: #91B187;
+padding: 10px;
+font-family: 'Anton', sans-serif;
+color:rgb(65, 30, 14);
+font-size: 18px;
+}
+
+.bottom {
+background-color: #e7a339;
+padding: 10px;
+font-family: 'Anton', sans-serif;
+}
+
+.end {
+    color:rgb(250, 246, 246);
+    text-align: center;
+    background-color: rgb(77, 76, 76);
+    font-style: italic;
+    font-size: large;
+
+}
+
+hr {
+border-style: dashed;
+border-color: rgb(61, 59, 59);
+border-width: 2px;
+}
+
+.contact {
+    background-color: #cfc8c8;
+    color: #333333;
+    padding: 2px 9px 2px 9px;
+    border-top: 3px solid #CCCCCC;
+    border-right: 3px solid #333333;
+    border-bottom: 3px solid #333333;
+    border-left: 3px solid #CCCCCC;
+}
+
+.left {
+display: inline-block;
+width: 160px;
+float: left;
+}
+
+.rigth{
+    display: inline-block;
+    width: 350px;
+    float:right;
+}
+
+.card {
+display: block;
+box-shadow: 0 4px 8px 0 gray;
+background-color: rgb(212, 203, 203);
+margin: auto;
+width: 15%;
+padding: 5px;
+}
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
